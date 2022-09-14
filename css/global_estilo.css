@@ -1,0 +1,53 @@
+@import url(__cabecalho.css);
+@import url(__apresentacao.css);
+@import url(__quem_sou.css);
+@import url(__artes.css);
+@import url(__projetos.css);
+@import url(__contato.css);
+@import url(__footer.css);
+
+:root {
+  --primary-color: #311C19;
+  --second-color: #8A6248;
+  --third-color: #E5C2AC;
+  --fourth-color: #E6DED3;
+  --quint-color: #F0F0F2;
+
+  --first-font: 'Akaya Telivigala', cursive;
+  --second-font: 'Stylish', sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+
+  color: var(--second-color);
+}
+
+body {
+  background-color: var(--fourth-color);
+}
+/* 
+main {
+  margin: 3rem 5rem;
+} */
+
+.topicos {
+  margin: 0 4rem 2rem 4rem;
+  color: var(--primary-color);
+  font-size: 2rem;
+  border-bottom: 1px solid var(--primary-color);
+}
+
+a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.splide__slide {
+  transition: 1s;
+}
+
+.splide__slide:hover {
+  transform: scale(1.1, 1.1);
+}

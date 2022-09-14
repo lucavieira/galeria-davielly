@@ -1,0 +1,30 @@
+#projetos {
+    margin-bottom: 2rem;
+}
+
+.projetos {
+    text-align: end;
+    margin-bottom: 1rem;
+}
+
+#projetos .splide {
+    padding: 3rem;
+    background-color: var(--primary-color);
+}
+
+#projetos .splide__slide__container {
+    width: 25rem;
+}
+
+#projetos .splide__slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.descricao {
+    font-size: 1.1rem;
+
+    color: var(--fourth-color);
+
+    margin-top: .3rem;
+}

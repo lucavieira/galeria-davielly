@@ -1,0 +1,18 @@
+footer {
+    display: flex;
+    justify-content: center;
+
+    padding: 2rem;
+}
+
+footer p {
+    font-size: 1.1rem;
+}
+
+#developer {
+    transition: color 1s;
+}
+
+#developer:hover {
+    color: var(--primary-color);
+}

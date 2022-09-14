@@ -1,0 +1,24 @@
+.contato {
+    margin-bottom: 1rem;
+}
+
+.redes-sociais ul {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+
+    padding: 2rem;
+}
+
+.redes-sociais ul li {
+    list-style-type: none;
+}
+
+.redes-sociais img {
+    width: 4rem;
+    transition: 1s;
+}
+
+.redes-sociais img:hover {
+    transform: scale(1.4, 1.4);
+}

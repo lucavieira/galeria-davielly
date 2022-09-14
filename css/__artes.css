@@ -1,0 +1,29 @@
+#artes {
+    margin-bottom: 4rem;
+}
+
+#artes .splide {
+    padding: 3rem;
+    background-color: var(--primary-color);
+}
+
+#artes .splide__list {
+    gap: 1rem;
+}
+
+#artes .splide__slide {
+    width: 23rem !important;
+    height: 23rem;
+
+    border: 2px solid black;
+}
+
+#artes .splide__slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.artes {
+    text-align: start;
+    margin-bottom: 1rem;
+}
